@@ -34,7 +34,7 @@ title = "Felix Dubrownik - CV"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
-        text = "www.felixdubrownik.de"
+        text = "cv.felixdubrownik.de"
 
     [params.skills]
         enable = true
