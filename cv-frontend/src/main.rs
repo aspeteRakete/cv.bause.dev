@@ -1,4 +1,8 @@
 mod app;
+mod contact_list;
+mod footer;
+mod intro;
+mod experience;
 
 use app::App;
 

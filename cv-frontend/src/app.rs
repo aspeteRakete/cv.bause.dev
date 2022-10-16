@@ -1,28 +1,32 @@
 use yew::prelude::*;
-
+use crate::contact_list::ContactList;
+use crate::footer::Footer;
+use crate::intro::Intro;
+use crate::experience::Experience;
 
 #[function_component(App)]
 pub fn app() -> Html {
     html! {
-        <>
-            <header>
-                <div class={"header-name"}>
-                    <h1 class={"flexbox-item"}>{"Felix Dubrownik"}</h1>
-                    <h2 class={"flexbox-item"}>{"Senior Software Engineer"}</h2>
-                </div>
-                <div class={"header-contact"}>
-                    <h3 class={"contact-item"}>{"Mail"}</h3>
-                    <h3 class={"contact-item"}>{"Website"}</h3>
-                    <h3 class={"contact-item"}>{"Location"}</h3>
-                </div>
+        <main class="container px-3 px-lg-5 mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+            <header class={"row align-items-center"}>
+                    <div class={"header-title col-12 col-md-6 col-lg-8 col-xl-9"}>
+                        <h2>{"Felix Dubrownik"}</h2>
+                        <h4>{"Senior Software Engineer"}</h4>
+                    </div>
+                    <div class={"header-contact col-12 col-md-6 col-lg-4 col-xl-3"}>
+                        <ContactList mail={"fdubrownik+cv@gmail.com"} location={"Kiel / Hamburg, Germany"} website="https://cv.felixdubrownik.de"/>
+                    </div>
             </header>
-            <main>
-                {"Main Content"}
-            </main>
-
+            <hr />
+            <div>
+                <Intro />
+                <hr />
+                <Experience />
+            </div>
+            <hr />
             <footer>
-                {"Footer Content"}
+                <Footer />
             </footer>
-        </>
+        </main>
     }
 }

@@ -1,46 +1,33 @@
-body {
+@import "bootstrap-5.2.2/scss/bootstrap";
+
+html,
+body{
   height: 100%;
-  margin: 5%;
-  font-size: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 header {
-  display: flex;
 
-  background: aquamarine;
-  width: 100%;
 }
 
-.header-name {
-  display: flex;
-  flex-direction: column;
-  background: aliceblue;
-  flex: 1;
-}
-
-.header-contact {
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
-  background: aqua;
-}
-
-.contact-item {
-  flex: 1;
-}
 
 main {
   color: #000000;
-  background: bisque;
-  font-family: sans-serif;
-  text-align: center;
-  flex-shrink: 0;
 }
 
 footer {
-  background: brown;
+
 }
+
+.contact-list{
+  list-style: none;
+}
+
+.profile-image{
+  max-width: 120px;
+}
+
