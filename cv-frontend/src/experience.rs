@@ -101,11 +101,19 @@ pub fn experience(_props: &ExperienceProps) -> Html {
                     </ul>
 
                 <h3 class="section-heading">{"Education"}</h3>
+                    <div>{"BSc in Computer Science"}</div>
+                    <div>{"Christian-Albrechts-Universität Kiel"}</div>
+                    <div>{"2008 - 2012"}</div>
 
                 <h3 class="section-heading">{"Awards"}</h3>
-
+                    <div>{"Koordinaten Festival für räumliche Medien - FH Kiel"}</div>
+                    <div>{"3rd place and audience award"}<a href={"//vimeo.com/120791544"}>{"Video"} </a> </div>
+                    <div>{"2014"}</div>
                 <h3 class="section-heading">{"Languages"}</h3>
-
+                    <ul class="list-unstyled">
+                        <li>{"German"}<span class="text-muted">{"(Native)"}</span></li>
+                        <li>{"English"}<span class="text-muted">{"(Professional)"}</span></li>
+                    </ul>
                 <h3 class="section-heading">{"Interests"}</h3>
                     <ul class="list-unstyled">
                         <li>{"Bouldering"}</li>
