@@ -49,6 +49,7 @@ pub fn experience(_props: &ExperienceProps) -> Html {
                                 <li>{"C++ graphics core utilizing OpenGL and GStreamer"}</li>
                                 <li>{"Golang server for scene and video configuration from IPad App and CMS"}</li>
                                 <li>{"Configuring custom Linux and provisionig toolkit"}</li>
+                                <li>{"CMS golang server and AWS server infrastucture with ansible"}</li>
                                 <li>{"Incremental over-the-air update mechanism with multi version boot and rollback mechanism"}</li>
                             </ul>
                         </div>
