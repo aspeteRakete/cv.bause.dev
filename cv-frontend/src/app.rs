@@ -14,6 +14,7 @@ pub fn app() -> Html {
                         <h4>{"Senior Software Engineer"}</h4>
                     </div>
                     <div class={"header-contact col-12 col-md-6 col-lg-4 col-xl-3"}>
+
                         <ContactList mail={"fdubrownik+cv@gmail.com"} location={"Kiel / Hamburg, Germany"} website="https://cv.felixdubrownik.de"/>
                     </div>
             </header>
