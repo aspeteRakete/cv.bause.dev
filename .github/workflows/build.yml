@@ -10,7 +10,7 @@ env:
   CARGO_TERM_COLOR: always
 
 jobs:
-  build:
+  build-frontend:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,6 +27,8 @@ jobs:
       with:
         version: 'latest'
     - name: Build
+      working-directory: frontend
       run: trunk build --release
     - name: Run tests
+      working-directory: frontend
       run: cargo test --verbose
