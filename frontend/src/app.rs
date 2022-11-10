@@ -10,7 +10,7 @@ pub fn app() -> Html {
         <main class="container px-3 px-lg-5 mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
             <header class={"row align-items-center"}>
                     <div class={"header-title col-12 col-md-6 col-lg-8 col-xl-9"}>
-                        <h2>{"Felix Bause"}</h2>
+                        <h2>{"Felix B. Bause"}</h2>
                         <h4>{"Senior Software Engineer"}</h4>
                     </div>
                     <div class={"header-contact col-12 col-md-6 col-lg-4 col-xl-3"}>
