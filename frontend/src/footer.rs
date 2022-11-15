@@ -13,9 +13,9 @@ pub fn footer(_props: &FooterProps) -> Html {
         <div class="text-center">
             <ul class="list-inline mx-auto mb-0 d-inline-block text-muted">
                 <li class="list-inline-item mb-lg-0 mr-3">
-                    <a href="//github.com/aspeteRakete" class="link-secondary">
+                    <a href="//github.com/like-a-bause" class="link-secondary">
                         <Icon icon_id={IconId::BootstrapGithub}/>
-                        <span class="d-none d-lg-inline-block text-muted"> {"aspeteRakete"} </span>
+                        <span class="d-none d-lg-inline-block text-muted"> {"like-a-bause"} </span>
                     </a>
                 </li>
                 <li class="list-inline-item mb-lg-0 mr-3">
