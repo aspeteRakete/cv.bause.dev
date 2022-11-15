@@ -5,4 +5,4 @@ resources:
 namespace: cv-bause-dev
 images:
   - name: ghcr.io/aspeterakete/cv.bause.dev/frontend
-    newTag: v0.1.0
+    newTag: v0.1.1

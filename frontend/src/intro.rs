@@ -10,7 +10,7 @@ pub fn intro(_props: &IntroProps) -> Html {
         <div class="media flex-column flex-md-row align-items-center">
             <div class="row">
                 <div class="col-12 col-md-3 col-lg-4 col-xl-3 text-center">
-                     <img src="img/portrait256.png" class="profile-image rounded mb-3 mr-md-5 ml-md-0 mx-auto"/>
+                     <img src="img/portrait2022_256x256.png" class="profile-image rounded mb-3 mr-md-5 ml-md-0 mx-auto"/>
                 </div>
                 <div class="col-12 col-md-9 col-lg-8 col-xl-9">
                     <p>
