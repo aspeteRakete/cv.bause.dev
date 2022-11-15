@@ -28,7 +28,7 @@ jobs:
       matrix:
         include:
           - context: ./frontend
-            image: ghcr.io/aspeterakete/cv.bause.dev/frontend
+            image: ghcr.io/like-a-bause/cv.bause.dev/frontend
     permissions:
       contents: read
       packages: write
