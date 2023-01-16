@@ -4,5 +4,5 @@ resources:
   - ingress.yaml
 namespace: cv-bause-dev
 images:
-  - name: ghcr.io/aspeterakete/cv.bause.dev/frontend
-    newTag: v0.1.1
+  - name: ghcr.io/like-a-bause/cv.bause.dev/frontend
+    newTag: v0.1.3

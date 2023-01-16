@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: ghcr.io/aspeterakete/cv.bause.dev/frontend:v0.1.0
+          image: ghcr.io/like-a-bause/cv.bause.dev/frontend:v0.1.0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
