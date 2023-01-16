@@ -22,13 +22,15 @@ pub fn experience(_props: &ExperienceProps) -> Html {
                                     {"Hanko GmbH | 2019 - Present"}
                                 </div>
                             </div>
-                            {"At "} <a href={"//hanko.io"}>{"Hanko"}</a> {" we developed an authentication server based on FIDO2 and integrated it into an identity provider. \
-                            We offered both as a SaaS. We are currently working on the "}<a href={"//github.com/teamhanko/hanko"}>{"hanko"}</a> {" open-source authentication solution. At my time there I worked on these topics:"}
+                            {"At "} <a href={"//hanko.io"}>{"Hanko"}</a> {" we develop an authentication system based on FIDO2. The goal is to make passwords obsolete and enhance security as well as the user experience when logging in online. \
+                            We are currently working on the "}<a href={"//github.com/teamhanko/hanko"}>{"hanko"}</a> {" open-source authentication solution. This software is offered as a SaaS product with additional features. \
+                            I had a strong impact by developing and defining the software stack and cloud architecture, developing the roadmap with the CEO, talking with customers and mentoring the development team. \
+                            Some of the key components we developed are:"}
                             <ul>
                                 <li>{"Hanko Authentication API - golang based FIDO authentication server"}</li>
                                 <li>{"Hanko Identity - Full fledged identity solution with authentication, identity management, authorization and OIDC connection."}</li>
                                 <li>{"kubernetes infrastructure running on AWS and mangaged with kops"}</li>
-                                <li>{"hanko operator - Using the kubernetes operator framework to manage the SaaS products and let clients spawn instances via a web-console"}</li>
+                                <li>{"hanko operator - Using the kubernetes operator framework to manage the SaaS products and let clients spawn isolated instances via a web-console"}</li>
                             </ul>
                         </div>
 
@@ -43,12 +45,12 @@ pub fn experience(_props: &ExperienceProps) -> Html {
                             </div>
                             {"At "}<a href={"//light-instruments.de"}>{"light instruments "}</a> {" we developed a hardware/software combination that enhanced beamers with capabilities of video mapping. \
                             In addition we implemented a content management system to schedule Images and Videos in a digital signage context. \
-                            As the first employee I was lucky to be part of the creation of this company from the beginning and implemented a very broad set of functionalities. \
+                            As the first employee I was lucky to be part of the creation of this company from the beginning and implemented a very broad set of components and functionalities. \
                             Including but not limited to:"}
                             <ul>
                                 <li>{"C++ graphics core utilizing OpenGL and GStreamer"}</li>
                                 <li>{"Golang server for scene and video configuration from IPad App and CMS"}</li>
-                                <li>{"Configuring custom Linux and provisionig toolkit"}</li>
+                                <li>{"Configuring custom Linux and provisionig toolkit (automate the creation of machines)"}</li>
                                 <li>{"CMS golang server and AWS server infrastucture with ansible"}</li>
                                 <li>{"Incremental over-the-air update mechanism with multi version boot and rollback mechanism"}</li>
                             </ul>

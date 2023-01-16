@@ -15,7 +15,7 @@ pub fn app() -> Html {
                     </div>
                     <div class={"header-contact col-12 col-md-6 col-lg-4 col-xl-3"}>
 
-                        <ContactList mail={"felix+cv@bause.dev"} location={"Kiel / Hamburg, Germany"} website="https://cv.bause.dev"/>
+                        <ContactList mail={"felix+cv@bause.dev"} location={"Kiel, Germany"} website="https://cv.bause.dev"/>
                     </div>
             </header>
             <hr />

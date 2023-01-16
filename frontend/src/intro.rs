@@ -21,8 +21,9 @@ pub fn intro(_props: &IntroProps) -> Html {
 
                     <p>
                         {"Having spent all of my professional career in start-ups I see myself as a generalist with an agile mindset and a hands-on mentality. \
-                            As a Team Lead my principle is basically “leading by serving”. \
-                            I have the strong believe that leading by encouragement and putting the team first yields the best results in the long run."}
+                            I learned to prioritize the most crucial tasks from a technical but also from a business perspective. \
+                            As a Team Lead my principle is “leading by serving”. \
+                            I have the strong believe that being an  encouraging leader yields the best results in the long run."}
                     </p>
                 </div>
             </div>
