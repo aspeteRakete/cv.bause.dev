@@ -80,7 +80,7 @@ pub fn experience(_props: &ExperienceProps) -> Html {
                                 </div>
                             </div>
                             {"In my third semester I started as an exercise group leader for the course Digital Systems I. \
-                            Teaching first semester students the fundamtentals of computer architecture based on digital circuits, memory and automata."}
+                            Teaching first semester students the fundamtentals of computer architecture based on digital circuits, memory and finite state machines."}
                         </div>
                 </div>
             </div>

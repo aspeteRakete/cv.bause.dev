@@ -9,5 +9,5 @@ license = "MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
-yew = "0.19"
-yew_icons = {version = "0.4.1", features = ["FeatherMail", "FeatherGlobe", "FeatherMapPin", "BootstrapGithub", "BootstrapLinkedin", "BootstrapTwitter"]}
+yew = "0.20"
+yew_icons = {version = "0.7.0", features = ["FeatherMail", "FeatherGlobe", "FeatherMapPin", "BootstrapGithub", "BootstrapLinkedin", "BootstrapTwitter"]}
